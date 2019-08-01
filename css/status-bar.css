@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 30px;
-  padding: 8px;
+  padding: 8px 30px;
   justify-content: space-between;
   align-items: center;
   background-color: #26292e;
@@ -12,14 +12,11 @@
 }
 .status-bar .status-bar__clock {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .status-bar i {
   font-size: 17px;
 }
 .status-bar__battery-level {
   margin-left: 9px;
-}
-.status-bar__battery-icon {
-  margin-right: 30px;
 }
