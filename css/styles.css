@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Pro:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Pro:300,400,700&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "header.css";
 
 body {
   background-color: #26292e;
   padding: 10px 20px;
   color: #ffffff;
   font-family: "Crimson Pro", serif;
+}
+
+a {
+  color: inherit;
 }

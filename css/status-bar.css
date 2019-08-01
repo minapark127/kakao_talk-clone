@@ -1,7 +1,12 @@
 .status-bar {
   display: flex;
   margin-bottom: 30px;
+  margin-left: 20px;
   justify-content: space-between;
+  align-items: center;
+}
+.status-bar .status-bar__clock {
+  font-size: 20px;
 }
 .status-bar i {
   font-size: 17px;
