@@ -1,1 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Pro:400,700&display=swap");
 @import "reset.css";
+@import "status-bar.css";
+
+body {
+  background-color: #26292e;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-family: "Crimson Pro", serif;
+}

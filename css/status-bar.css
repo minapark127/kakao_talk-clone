@@ -1,0 +1,11 @@
+.status-bar {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.status-bar i {
+  font-size: 17px;
+}
+.status-bar__battery-level {
+  margin-left: 9px;
+}
