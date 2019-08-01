@@ -1,16 +1,25 @@
 .status-bar {
+  position: fixed;
+  width: 100%;
   display: flex;
   margin-bottom: 30px;
-  margin-left: 20px;
+  padding: 8px;
   justify-content: space-between;
   align-items: center;
+  background-color: #26292e;
+  top: 0px;
+  left: 0px;
 }
 .status-bar .status-bar__clock {
   font-size: 20px;
+  margin-left: 30px;
 }
 .status-bar i {
   font-size: 17px;
 }
 .status-bar__battery-level {
   margin-left: 9px;
+}
+.status-bar__battery-icon {
+  margin-right: 30px;
 }

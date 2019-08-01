@@ -1,0 +1,17 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #212326;
+  left: 0px;
+  bottom: 0px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 25px;
+}
