@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Pro:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Pro:300,400,600,700&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
 
 body {
-  background-color: #26292e;
+  background-color: #26282d;
   padding: 10px 20px;
   color: #ffffff;
   font-family: "Crimson Pro", serif;
