@@ -1,0 +1,103 @@
+.chats-body {
+  padding: 0;
+}
+.chats-body .header,
+.chats-body .status-bar {
+  padding: 10px 20px;
+}
+.chat-screen {
+  background-image: url("../images/chat-background.png");
+  min-height: 100vh;
+}
+
+.chat__write {
+  position: fixed;
+  bottom: 50px;
+  width: 80%;
+  display: flex;
+  background-color: #212326;
+  padding: 15px 20px;
+  border-radius: 40px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.7);
+  justify-content: space-between;
+  align-items: center;
+}
+.chat__write i {
+  font-size: 22px;
+}
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+.chat__write-column input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+.chat__write-column input:focus {
+  outline: none;
+}
+.chat-screen .chat__messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding: 0px 20px;
+  border-top: 1px solid #848484;
+}
+.chat__messages .chat__timestamp {
+  background-color: #212326;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.message .message__content {
+  width: 70%;
+}
+.incoming-msg {
+  align-self: flex-start;
+}
+.sent-msg {
+  align-self: flex-end;
+}
+.incoming-msg img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.message .message__bubble {
+  background-color: #212326;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.3);
+  padding: 7px 15px;
+  border-radius: 20px;
+  opacity: 0.85;
+}
+.incoming-msg .message__author {
+  margin-top: 10px;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.9;
+}
+.incoming-msg .message__bubble {
+  border-bottom-left-radius: 0px;
+  background-image: linear-gradient(to right, #355c7d, #c06c84);
+}
+.sent-msg .message__bubble {
+  border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to right, #556270, #ff6b6b);
+}

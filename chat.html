@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao Talk Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">11:33</span>
@@ -37,36 +37,36 @@
         </div>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Tuesday, 30 July 2019</span>
         <li class="incoming-msg message">
-          <img src="images/avatar.png" class="m-avatar" />
+          <img src="images/avatar.png" class="friend__avatar m-avatar" />
           <div class="message__content">
+            <span class="message__bubble">
+              babes, I love you!
+            </span>
             <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
-              Congrats, I love you!
-            </div>
           </div>
           <span class="message__timestamp"></span>
         </li>
 
-        <li class="incoming-msg message">
+        <li class="sent-msg message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__bubble">
               I love you too!
-            </div>
+            </span>
           </div>
         </li>
 
         <li class="incoming-msg message">
-          <img src="images/avatar.png" class="m-avatar" />
+          <img src="images/avatar.png" class="friend__avatar m-avatar" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
+            <span class="message__bubble">
               Can't wait to see you tonight!
-            </div>
+            </span>
+            <span class="message__author">Best Friend</span>
           </div>
           <span class="message__timestamp"></span>
         </li>
