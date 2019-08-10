@@ -42,3 +42,14 @@
 .friend .chat__timestamp {
   font-size: 12px;
 }
+.friend .chat__notification {
+  background-color: #f05549;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 18px;
+}

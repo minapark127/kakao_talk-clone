@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
-  margin-top: 47px;
+  margin-bottom: 18px;
+  margin-top: 50px;
 }
 
 .header .header__title {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
 }
 
