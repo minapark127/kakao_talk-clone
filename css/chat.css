@@ -22,8 +22,7 @@
 .chat__write--container {
   position: fixed;
   bottom: 0px;
-  background-color: #212326;
-  padding: 0px 20px;
+  width: 100%;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -34,6 +33,7 @@
 }
 .chat__write {
   bottom: 0;
+  margin: 0 auto;
   width: 100%;
   background-color: #212326;
   border-radius: 0;
@@ -41,23 +41,32 @@
   width: 100%;
   border: none;
   font-size: 14px;
+  transition: width 0.5s ease-in-out, border-radius 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
 }
+.chat__write:focus {
+  outline: none;
+  width: 80%;
 
+  transform: translateY(-100px);
+  border-radius: 40px;
+  box-shadow: 3px 7px 20px rgba(255, 255, 255, 0.3);
+}
 .chat__icon-left {
   position: absolute;
+  left: 10px;
 }
 .chat__icon-right {
   position: absolute;
   right: 10px;
 }
-.chat__write :focus {
-  outline: none;
-}
+
 .chat__icon {
   font-size: 18px;
   transition: opacity 0.3s ease-in-out;
 }
 .chat__write:focus ~ .chat__icon {
+  outline: none;
   opacity: 0;
 }
 .chat__write i {
@@ -65,8 +74,6 @@
 }
 .chat__write-column:nth-child(2) {
   width: 80%;
-}
-.chat__write-column input {
 }
 
 .chat-screen .chat__messages {
