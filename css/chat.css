@@ -112,13 +112,9 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.message .message__content {
-  width: 70%;
-}
 .incoming-msg {
   align-self: flex-start;
 }
